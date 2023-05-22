@@ -1,2 +1,2 @@
-# Clipboard-landing-page-master
+# Clipboard-landing-page
 Frontend Mentor | Clipboard landing page
