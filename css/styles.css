@@ -105,7 +105,7 @@ h3 {
 }
 
 .main-heading {
-    font-size: 3rem;
+    font-size: 2.7rem;
     color: hsl(210, 10%, 33%);
     margin: 1em 0 .2em;
 }
@@ -249,8 +249,6 @@ h3 {
     margin: 4em 0 5em;
 }
 
-
-
 /****** Footer *****/
 
 .footer-layout {
@@ -303,13 +301,13 @@ h3 {
 
 @media (max-width: 37.5em) {
     html {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .main-section {
         background-image: linear-gradient(to bottom, rgba(214, 3, 3, 0) 75%,white), url("../images/bg-header-mobile.png");
         background-color: transparent;
-        padding: 8em 10% 10%;
+        padding: 8em 8% 10%;
     }
 
     .button-style {
@@ -325,6 +323,7 @@ h3 {
     .features-1-text {
         text-align: center;
         padding-right: 0;
+        max-width: 80%
     }
 
     .features-1-img {
@@ -333,12 +332,16 @@ h3 {
 
 
     .section-heading {
-        padding: 0 10% 10%;
+        padding: 5% 10% 7%;
     }
 
     .features-3-layout div {
         flex-basis: calc(100%);
         padding: 0 2%;
+    }
+
+    .tertiary-p {
+        font-size: 1.2rem;
     }
 
     .companies-layout {
