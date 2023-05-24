@@ -287,6 +287,7 @@ h3 {
 
 .links a:hover {
     color: hsl(171, 66%, 44%);
+    cursor: pointer;
 }
 
 .socials-layout {
@@ -301,7 +302,7 @@ h3 {
 
 @media (max-width: 37.5em) {
     html {
-        font-size: 14px;
+        font-size: 0.85em;
     }
 
     .main-section {
