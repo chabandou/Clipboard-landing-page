@@ -143,6 +143,8 @@ h3 {
 
 .button-style:hover {
     translate: 0 -2px;
+    cursor: pointer;
+
 }
 
 .ios:hover {
